@@ -1,0 +1,30 @@
+{
+  "name": "12_Tech-Blog",
+  "version": "1.0.0",
+  "description": "* [Acceptance Criteria](#acceptancecriteria)\r * [Installation](#installation)\r * [Project Status](#projectstatus)\r * [License](#license)\r * [Deployment](#deployment)\r * [Usage](#usage)\r * [Preview of the App](#previewApp)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obi1002/12_Tech-Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Obi1002/12_Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/Obi1002/12_Tech-Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "express-handlebars": "^5.3.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "y": "^0.3.2"
+  }
+}
