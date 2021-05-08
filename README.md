@@ -57,8 +57,8 @@ This project was completed on May 8, 2021.
 MIT
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sdca/advdv)
 
-<!-- # Deployment
-[Link](https://drive.google.com/file/d/1O19XE915vSMxjYLlFQsY-bE4j2_3muhJ/view?usp=sharing) -->
+# Deployment
+[Link](https://obi1002.github.io/12_Tech-Blog/)
 
 # Usage
 When you open the terminal, you will be able to view all employees, view employees by department and by role, view all departments, add new employees and new Departments, update an employee's information and remove employees. 
