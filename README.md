@@ -10,7 +10,7 @@
 
 # Tech Blog
 
-For this project, I aim to create an Employee Tracker application that can be used to track the organization's employees.  This application will use MySQL, InquirerJs, and console.table dependencies to make the app function. My main motivation for this project is to create an application that will allow employers to successfully track their employees and view their information by department and role. 
+For this project, I aim to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. My main motivation for this project is to create an application that will allow developers to successfully write their blogs on their own platforms.  
 
 # Acceptance Criteria
 GIVEN a CMS-style blog site
@@ -47,8 +47,8 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
-<!-- # Installation
-In order to use this app, you will need to install MySQL, InquirerJs, and console.table.  -->
+# Installation
+In order to use this app, you will need to use the express-handlebars package to implement Handlebars.js for the Views, use the MySQL2 and Sequelize packages to connect to a MySQL database for the Models, and create an Express.js API for the Controllers. You’ll also need the dotenv package to use environment variables, the bcrypt package to hash passwords, and the express-session and connect-session-sequelize packages to add authentication.
 
 # Project Status
 This project was completed on May 8, 2021. 
@@ -63,7 +63,7 @@ MIT
 # Usage
 When you open the terminal, you will be able to view all employees, view employees by department and by role, view all departments, add new employees and new Departments, update an employee's information and remove employees. 
 
-<!-- Add screenShot
+Add screenShot
 # Preview of the App
 * This is how the app looks
-![NoteTakingApp Screenshot](./assets/trackerSnapshot.PNG) -->
+![NoteTakingApp Screenshot](./asset/tech_blog.PNG)
